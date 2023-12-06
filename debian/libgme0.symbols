@@ -1,6 +1,7 @@
 libgme.so.0 libgme0 #MINVER#
 * Build-Depends-Package: libgme-dev
- (c++|optional)"std::vector<std::vector<short, std::allocator<short> >, std::allocator<std::vector<short, std::allocator<short> > > >::~vector()@Base" 0.6.3
+ (c++|optional|arch-bits=32)"std::vector<short, std::allocator<short> >* std::__do_uninit_fill_n<std::vector<short, std::allocator<short> >*, unsigned int, std::vector<short, std::allocator<short> > >(std::vector<short, std::allocator<short> >*, unsigned int, std::vector<short, std::allocator<short> > const&)@Base" 0.6.3
+ (c++|optional|arch-bits=64)"std::vector<short, std::allocator<short> >* std::__do_uninit_fill_n<std::vector<short, std::allocator<short> >*, unsigned long, std::vector<short, std::allocator<short> > >(std::vector<short, std::allocator<short> >*, unsigned long, std::vector<short, std::allocator<short> > const&)@Base" 0.6.3
  (c++|optional|regex)"std::vector<short, std::allocator<short> >::_M_default_append\(unsigned (int|long)\)@Base" 0.6.3
  gme_ay_type@Base 0.6.3
  gme_clear_playlist@Base 0.6.0

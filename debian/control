@@ -1,13 +1,16 @@
 Source: game-music-emu
 Section: sound
 Priority: optional
-Maintainer: Sebastian Dröge <slomo@debian.org>
-Build-Depends: debhelper (>= 12),
-               debhelper-compat (= 12),
+Maintainer: Ileana Dumitrescu <ileanadumitrescu95@gmail.com>
+Build-Depends: debhelper (>= 13),
+               debhelper-compat (= 13),
                cmake (>= 2.6),
                zlib1g-dev
-Standards-Version: 4.5.0
-Homepage: https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://github.com/libgme/game-music-emu
+Vcs-Browser: https://salsa.debian.org/debian/game-music-emu
+Vcs-Git: https://salsa.debian.org/debian/game-music-emu.git
 
 Package: libgme0
 Architecture: any
@@ -27,7 +30,7 @@ Description: Playback library for video game music files - shared library
   * NSF/NSFE  Nintendo NES/Famicom (with VRC 6, Namco 106, and FME-7 sound)
   * SAP       Atari systems using POKEY sound chip
   * SPC       Super Nintendo/Super Famicom
-  * VGM/VGZ   Sega Master System/Mark III, Sega Genesis/Mega Drive,BBC Micro
+  * VGM/VGZ   Sega Master System/Mark III, Sega Genesis/Mega Drive, BBC Micro
  .
  This package contains the shared libraries necessary to run programs
  using libgme.
@@ -49,8 +52,7 @@ Description: Playback library for video game music files - development files
   * NSF/NSFE  Nintendo NES/Famicom (with VRC 6, Namco 106, and FME-7 sound)
   * SAP       Atari systems using POKEY sound chip
   * SPC       Super Nintendo/Super Famicom
-  * VGM/VGZ   Sega Master System/Mark III, Sega Genesis/Mega Drive,BBC Micro
+  * VGM/VGZ   Sega Master System/Mark III, Sega Genesis/Mega Drive, BBC Micro
  .
  This package contains the header files, static libraries
  and symbolic links that developers using libgme will need.
-
