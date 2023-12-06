@@ -1,8 +1,50 @@
-game-music-emu (0.6.3.1-deepin1) unstable; urgency=medium
+game-music-emu (0.6.3-7) unstable; urgency=medium
 
-  * Update symbols for RISC-V GCC 12
+  * Replace abandoned Bitbucket upstream for active Github upstream.
+  * d/watch: Point to new upstream repository.
+  * d/control: Update homepage.
+  * d/copyright: Update source and upstream contact.
+  * d/upstream/metadata: Update upstream metadata.
+  * d/gbp.conf: Pull and commit to pristine-tar branch.
 
- -- Clansty <i@gao4.pw>  Mon, 09 Jan 2023 03:19:10 +0000
+ -- Ileana Dumitrescu <ileanadumitrescu95@gmail.com>  Thu, 02 Nov 2023 19:21:00 +0200
+
+game-music-emu (0.6.3-6) unstable; urgency=medium
+
+  * debian/upstream/metadata: New file
+  * debian/control: Bump Standards-Version to 4.6.2
+  * debian/copyright: Update debian copyright year
+  * debian/rules: Add hardening flag
+
+ -- Ileana Dumitrescu <ileanadumitrescu95@gmail.com>  Mon, 30 Jan 2023 15:36:36 +0200
+
+game-music-emu (0.6.3-5) unstable; urgency=medium
+
+  * debian/libgme0.symbols: Fix for 32/64 bit arch (Closes: #1024363)
+  * debian/control: Add salsa repository location
+
+ -- Ileana Dumitrescu <ileanadumitrescu95@gmail.com>  Tue, 22 Nov 2022 15:39:44 +0200
+
+game-music-emu (0.6.3-4) unstable; urgency=medium
+
+  * debian/control:
+    + Adopt package (Closes: #1018069)
+    + Update debhelper, debhelper-compat version to 13
+    + Add Rules-Requires-Root line
+    + Bump Standards-Version to 4.6.1
+  * debian/copyright: Update to dep5 format
+  * debian/libgme0.symbols: Removed lines from diff output
+
+ -- Ileana Dumitrescu <ileanadumitrescu95@gmail.com>  Thu, 17 Nov 2022 14:59:50 +0200
+
+game-music-emu (0.6.3-3) unstable; urgency=medium
+
+  * QA upload.
+  * Set Maintainer to Debian QA Group.  (See: #1018069)
+  * Update symbols file for GCC 12, thanks to Étienne Mollier.
+    (Closes: #1012932)
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 30 Oct 2022 01:22:59 +0200
 
 game-music-emu (0.6.3-2) unstable; urgency=medium
 
@@ -120,4 +162,3 @@ game-music-emu (0.5.5-1) unstable; urgency=low
   * Initial upload (Closes: #540480).
 
  -- Sebastian Dröge <slomo@debian.org>  Sat, 08 Aug 2009 10:37:12 +0200
-
