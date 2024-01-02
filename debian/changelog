@@ -1,3 +1,9 @@
+game-music-emu (0.6.3.1-7deepin) unstable; urgency=medium
+
+  * update changelog.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 02 Jan 2024 16:44:07 +0800
+
 game-music-emu (0.6.3-7) unstable; urgency=medium
 
   * Replace abandoned Bitbucket upstream for active Github upstream.
