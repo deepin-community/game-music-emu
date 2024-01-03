@@ -1,3 +1,9 @@
+game-music-emu (0.6.3.2-7deepin) unstable; urgency=medium
+
+  * Existing version 0.6.3.1-deepin1+rb2 > 0.6.3.1-7deepin 
+
+ -- LiChengGang <lichenggang@uniontech.com>  Wed, 03 Jan 2024 21:32:34 +0800
+
 game-music-emu (0.6.3.1-7deepin) unstable; urgency=medium
 
   * update changelog.
