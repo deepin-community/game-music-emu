@@ -1,3 +1,9 @@
+game-music-emu (0.6.3.2-7deepin1) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Mon, 21 Sep 2026 16:58:30 +0800
+
 game-music-emu (0.6.3.2-7deepin) unstable; urgency=medium
 
   * Existing version 0.6.3.1-deepin1+rb2 > 0.6.3.1-7deepin 
