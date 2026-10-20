@@ -1,3 +1,11 @@
+game-music-emu (0.6.3.2-7deepin2) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-111152 (medium) - Ay_Emu.cpp: Don't read farther
+    than buffer allows   Upstream: https://github.com/libgme/game-music-
+    emu/commit/ae10a8f05479e3c8f80429e7a59759fed06f8c13
+
+ -- deepin-ci-robot <packages@deepin.org>  Wed, 21 Oct 2026 01:54:01 +0800
+
 game-music-emu (0.6.3.2-7deepin1) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
